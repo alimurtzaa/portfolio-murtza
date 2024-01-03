@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+}
+
+/* homepage */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2dbdb;
+    height: 43.5rem;
+}
+
+.me{
+    border-radius: 50%;
+    width: 312.4px;
+    height: 312.4px; 
+    margin-top: 95px;
+    margin-bottom: 30px;
+}
+
+.para1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #545454;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+    font-family: 'League Spartan', sans-serif;
+    color: #545454;
+    margin: 0;
+}
+
+.para2{
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: bold; 
+    color: #545454;
+    
+}
+
+/* 2nd page  */
+.container1{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 35px;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+
+}
+.secondpage{
+    background-color: white;
+}
+ 
+ @media(min-width: 1150px) {
+    .items4{
+    grid-column-start:2 ;
+    height: 250px;
+    width: 500px;
+    border-radius: 15rem 15rem 0 0;
+    background-color: #aca6a6;
+   
+    margin-top: 80px;
+    }
+
+    .items5 {
+        grid-column-start: 3;
+    }
+}
+
+.secondpage h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2.5rem;
+    color: #545454;
+}
+
+.secondpage p, ul, h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #545454;
+}
+
+h5{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+
+/* for small screen  */
+@media(max-width: 650px) {
+    .container1{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+       
+    
+    }
+    .secondpage{
+        background-color: white;
+    }
+
+    .secondpage h2{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 2.5rem;
+        color: #545454;
+    }
+    
+    .secondpage p, ul, h5{
+        font-family: 'Open Sans', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        color: #545454;
+    }
+    
+    h5{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .items4{
+       order: 1; 
+    }
+
+}
+
+/* about page  */
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-bottom: 350px;
+}
+
+.design{
+    height: 250px;
+    width: 500px;
+    border-radius: 0 0 15rem 15rem;
+    background-color: #aca6a6;
+
+}
+
+
+.aboutus  h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3.5rem;
+    color: #545454;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.aboutus  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #545454;
+    width: 90vh; 
+
+}
+.mainfooter{
+    margin-left: 10%;
+    height: 110px;
+    width: 80%;
+    background-color: #545454;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+ a{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.mainfooter p{
+    text-align: center;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
