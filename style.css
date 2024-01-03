@@ -9,6 +9,7 @@ body{
     align-items: center;
     background-color: #e2dbdb;
     height: 43.5rem;
+    width: 100%;
 }
 
 .me{
@@ -99,9 +100,9 @@ h5{
         height: 100vh;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr ;
-        gap: 30px;
-        margin-left: 60px;
-        margin-right: 60px;
+        gap: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
        
     
     }
