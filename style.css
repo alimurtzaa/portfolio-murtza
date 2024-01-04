@@ -94,47 +94,9 @@ h5{
 
 
 /* for small screen  */
-@media(max-width: 650px) {
-    .container1{
-        display: grid;
-        height: 100vh;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
-        gap: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
-       
-    
-    }
-    .secondpage{
-        background-color: white;
-    }
 
-    .secondpage h2{
-        font-family: 'League Spartan', sans-serif;
-        font-size: 2.5rem;
-        color: #545454;
-    }
-    
-    .secondpage p, ul, h5{
-        font-family: 'Open Sans', sans-serif;
-        font-size: large;
-        font-weight: bold;
-        color: #545454;
-    }
-    
-    h5{
-        margin-bottom: 0;
-        font-size: 20px;
-    }
 
-    .items4{
-       order: 1; 
-    }
-
-}
-
-/* about page  */
+/* big screen about page  */
 .aboutus{
     display: flex;
     flex-direction: column;
@@ -149,8 +111,6 @@ h5{
     background-color: #aca6a6;
 
 }
-
-
 .aboutus  h2{
     font-family: 'League Spartan', sans-serif;
     font-size: 3.5rem;
@@ -200,3 +160,112 @@ a:hover{
 }
 
 
+@media(max-width: 650px) {
+    .container1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap: 12px;
+        margin-left: 8px;
+        margin-right: 0px;
+        width: fit-content;
+       
+    
+    }
+    .secondpage{
+        background-color: white;
+    }
+
+    .secondpage h2{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 2rem;
+        color: #545454;
+    }
+    
+    .secondpage p, ul, h5{
+        font-family: 'Open Sans', sans-serif;
+        font-size: large;
+        font-weight: bold;
+        color: #545454;
+    }
+    
+    h5{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .items4{
+       order: 1; 
+    }
+
+    /* for footer */
+
+
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        margin-bottom: 250px;
+    }
+    
+    .design{
+        height: 175px;
+        width: 350px;
+        border-radius: 0 0 12rem 12rem;
+        background-color: #aca6a6;
+    
+    }
+    
+    
+    .aboutus  h2{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 3.5rem;
+        color: #545454;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    .aboutus  p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #545454;
+        width: fit-content;
+        text-align: center;
+        
+
+    }
+
+    .mainfooter{
+        height: 100px;
+        background-color: #545454;
+        margin: 0;  
+        width:auto;     
+    }
+
+    .footer{
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+     a{
+        color: white;
+        font-family: 'League Spartan', sans-serif;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    .mainfooter p{
+        text-align: center;
+        color: white;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+}
